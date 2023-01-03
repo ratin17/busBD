@@ -1,11 +1,11 @@
 
-su="G:\Projects\BusBD\pData1.txt"
+su="BusBD\stopsData.txt"
 
 sf=open(su,"r")
 stops=sf.read().split("> <")
 sf.close()
 
-v=2
+v=4
 
 n=len(stops)
 
@@ -46,7 +46,7 @@ for i in range(n):
         
         if dif<v:
             match.append(temp)
-    if len(match)>1:  
+    if len(match)>1:
         print(match)
 
 blackSheep=['CMirpur 14','Sony Cenema Hall','Sony CInema Hall','Natun Bazar','Dia Bari','Karwan Bazar','kakali','Asad gate','Malibagg Mor','Kalabagan','Malibagh Rail Gate','Shanir Akhra','Sat rasta','AKeraniganj','Ring Road','ashantek','Aminbazar']
