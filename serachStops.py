@@ -1,5 +1,5 @@
 
-url="BusBD\stopsData.txt"
+url="stopsData.txt"
 iStop=input("Enter Destination :")
 
 def findStops(stop):
